@@ -38,4 +38,16 @@ Players will automatically be added to and removed from principals based on thei
 discord.role:<role ID>
 ```
 
+These principals can then be used to add players to other principals or to add aces:
+
+```
+# Add players with the Moderator role on Discord to group.moderator
+add_principal discord.role:<ID of Moderator role> group.moderator
+```
+
+```
+# Add a tag in chat for players with the Friend role on Discord (see https://github.com/kibook/poodlechat)
+add_ace discord.role:<ID of Friend role> chat.friend allow
+```
+
 To force a refresh of roles (for example, after modifying roles on Discord), use the `refresh_discord_roles` command.
