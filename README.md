@@ -12,10 +12,10 @@ Automatically add players to principals based on their roles in a Discord guild.
 
 2. Clone to a folder in your resources directory:
 
-```sh
-cd resources/[local]
-git clone https://github.com/kibook/discord_roles
-```
+   ```sh
+   cd resources/[local]
+   git clone https://github.com/kibook/discord_roles
+   ```
 
 3. Set your Discord guild ID in [config.lua](config.lua).
 
