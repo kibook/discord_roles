@@ -24,7 +24,7 @@ Automatically add players to principals based on their roles in a Discord guild.
 5. Add the following to server.cfg:
 
    ```
-   exec resources/[local]/discord_roles/permissions.cfg
+   exec @discord_roles/permissions.cfg
    start discord_roles
    ```
 
